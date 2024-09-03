@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CustStyle.css">
+<script type="text/javascript" src="validation1.js"></script>
+</head><body>		
+<form action="edit.php" method="post" name="cr" onsubmit="return(validate());">
+<table class=table1>
+
+<tr><td class=td0 colspan=2><a href=home.html><img class=homeicon src=home.gif></a><center><b>Edit Customer Registration</b></center></td></tr>
+
+<tr><td class=td1>Re-enter your username :</td><td class=td2><input type=text name=username autofocus=true size=30 placeholder="Enter new username"></td></tr>
+
+<tr><td class=td1>Full Name :</td><td class=td2><input type=text name=names size=30 placeholder="Enter your full name"></td></tr>
+
+<tr><td class=td1>Address :</td><td class=td2><input type=text name=address size=50 placeholder="Enter your address"></td></tr>
+
+<tr><td class=td1>Gender :</td><td class=td2><input type=radio name=gender value=female size=10 checked>Female<input type=radio name=gender value=male size=10>Male</td></tr>
+
+<tr><td class=td1>City :</td><td class=td2><select name=city>
+<option value=-1 selected>-select-</option>
+<option value=ahmednagar>Ahmednagar</option>
+<option value=aurangabad>Aurangabad</option>
+<option value=mumbai>Mumbai</option>
+<option value=pune>Pune</option>
+<option value=nashik>Nashik</option>
+<option value=nagpur>Nagpur</option>
+<option value=kolhapur>Kolhapur</option>
+</select></td></tr>
+
+<tr><td class=td1>State :</td><td class=td2>Maharashtra</td></tr>
+
+<tr><td class=td1>Emaid ID :</td><td class=td2><input type=text name=eid placeholder=username@domainname.com size=25></td></tr>
+
+<tr><td class=td1>Phone No :</td><td class=td2><input type=text name=phoneno size=20 placeholder="Enter 10 digits no."></td></tr>
+	 
+<tr><td class=td1>New Password :</td><td class=td2><input type=password name=newpassword placeholder="6-12 Characters"></td></tr>
+
+<tr><td class=td3 colspan=3><input type=button value=Back onClick="history.go(-1);return true;">&nbsp;&nbsp;<input type=submit value=Submit>&nbsp;&nbsp;<input type=reset value=Reset></td></tr>
+</table></form></body></html>

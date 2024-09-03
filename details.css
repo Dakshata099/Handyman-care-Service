@@ -1,0 +1,96 @@
+#header
+{
+	width:893px;
+	height:80px;
+	background-color:#FF6666;
+}
+.l
+{
+	color:white;
+	font-family:Algerian;
+	font-size:30px;
+}
+
+#details
+{
+	margin-top:10px;
+	width:890px;
+	height:335px;
+	background-color:white;
+}
+.about
+{
+	height:335;
+	margin-left:20px;
+}
+#sub
+{
+	margin-top:-319px;
+	margin-left:200px;
+	width:670px;
+	height:300px;
+	border:2px solid #66CC66;
+	border-radius:10px;
+}
+.t1
+{
+	text-align:center;
+	font-size:18px;
+	color:#0066FF;
+	font-family:Elephant;
+}
+.t2
+{
+	margin-left:8px;
+	font-size:14px;
+	font-family:Candara;
+}
+.t3
+{
+	text-align:center;
+	font-family:Candara;
+	color:red;
+}
+
+.h
+{
+	width:25px;
+	height:25px;
+	border:1px solid white;
+	//float:left;
+	margin-top:10px;
+	margin-left:10px;
+	background-color:white;
+}
+
+
+
+.log
+{	
+	color:white;
+	float:right;
+	margin:10px 10px 10px 10px;
+	font-family:Arial;
+}
+
+.box:hover{background-color:pink;}
+a:link
+{
+	color:white;
+	background-color:transparent;text-decoration:underline;
+}
+a:visited{
+	color:white;
+	background-color:transparent;text-decoration:none;
+}
+a:hover{
+	color:yellow;
+	background-color:transparent;
+	text-decoration:underline;
+}
+a:active
+{
+	color:green;
+	background-color:transparent;
+	text-decoration:underline;
+}

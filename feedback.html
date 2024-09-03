@@ -1,0 +1,52 @@
+<html>
+<head>
+<link rel="stylesheet" href="homeStyle.css" type="text/css">
+<script>
+function v()
+{
+	if(document.form.u.value=="")
+	{
+		alert("Please provide your username");
+		document.form.u.focus();	
+		return false;
+	}
+	if(document.form.feed.value=="")
+	{
+		alert("Please provide your feedback!");
+		document.form.feed.focus();	
+		return false;
+	}
+}
+	
+</script>
+</head>
+<form action="feedback.php" method="post" name="form" onsubmit="return v();">
+<body bgcolor=pink>
+<div id=header>
+<img class=hm src=hm.png>
+<font class=l><center>Ganesha Handyman Care System</center></font>
+<a class=log href=demo.php>Log In</a>
+</div>
+
+<div id=menu>
+<ul>
+<li><a href=home.html>Home</a></li>
+<li><a href=customer.html>Register as new Customer</a></li>
+<li><a href=tradeperson.html>Register as Member</a></li>
+<li><a href=minorTologin.php>Minor Services</a></li>
+<li><a href=servicetologin.php>Major Services</a></li>
+<li><a href=feedback.html>Feedback</a></li>
+</ul>
+</div>
+
+<div id=feedback>
+<br>
+<b class=feedText>Give us your precious feedback :</b>
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=white>Enter Your Username :</font></b>	<input type=text name=u>
+<br><br>
+<textarea rows=6 cols=60 name=feed></textarea>
+<input type=submit class=feedSubmit value="Submit Feedback">
+</div>
+</form>
+</body>
+</html>
